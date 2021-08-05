@@ -10,6 +10,7 @@ class Vote2 extends Component{
     }
 
 // function for changing the number when clicking on button
+// to return number of votes
     Count() {
         const { number } = this.state;
         return number === 0 ? 0 : number;
